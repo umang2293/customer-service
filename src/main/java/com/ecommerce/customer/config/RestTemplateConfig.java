@@ -1,4 +1,4 @@
-package com.ecommerce.customer;
+package com.ecommerce.customer.config;
 
 import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.context.annotation.Bean;

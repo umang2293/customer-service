@@ -1,5 +1,8 @@
-package com.ecommerce.customer;
+package com.ecommerce.customer.controller;
 
+import com.ecommerce.customer.dto.CustomerDto;
+import com.ecommerce.customer.service.CustomerService;
+import com.ecommerce.customer.entity.Customer;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import reactor.core.publisher.Mono;

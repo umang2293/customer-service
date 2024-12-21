@@ -1,5 +1,8 @@
-package com.ecommerce.customer;
+package com.ecommerce.customer.service;
 
+import com.ecommerce.customer.dto.CustomerDto;
+import com.ecommerce.customer.entity.Customer;
+import com.ecommerce.customer.repository.CustomerRepository;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.reactive.function.client.WebClient;

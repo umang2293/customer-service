@@ -1,11 +1,8 @@
-package com.ecommerce.customer;
+package com.ecommerce.customer.entity;
 
 import jakarta.persistence.*;
 import lombok.Data;
-import lombok.Getter;
 import lombok.RequiredArgsConstructor;
-import lombok.Setter;
-import org.hibernate.annotations.ColumnDefault;
 
 @Data
 @Entity
