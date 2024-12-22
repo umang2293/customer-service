@@ -11,7 +11,7 @@ import reactor.core.publisher.Mono;
 @Service
 public class CustomerService {
 
-    private static final String ORDER_SERVICE_HOST = "http://localhost:8082";
+    private static final String ORDER_SERVICE_HOST = "http://localhost:8072/order-processing-service";
     private static final String ORDER_GET_URL = "/api/v1/orders/getOrder/";
 
     private final WebClient webClient;
